@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+button { /* 1 */
+  text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
